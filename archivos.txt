@@ -1,0 +1,14 @@
+    
+    Configuracion de babel- compilador de js 
+
+    /* -d es para convertirlo , osea donde voy a ubicar el codigo convertido , source-maps para crear los archivos que me
+    permiten debugear la aplicacion , para convertirlo*/
+    "build": "babel src -d dist --source-maps ",es para produccion 
+    /*Para ejecutarlo*/
+    "start": "babel-node src/index.js" 
+    -> Comando para ejecutar a produccion  -> npm run build
+    -> Comando para ejecutar en desarrollo -> node dist/index.js ->start
+
+    -> npm i rimraf = es multiplataforma para eliminar carpetas  
+    -> npm i graphql express-graphql graphql-tools => para instalar graphql ,  integrar express con graphql y herramientas de graphql
+    

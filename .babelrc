@@ -1,0 +1,6 @@
+//Crear un objeto de babel 
+{
+    "presets":[
+        "@babel/preset-env" //Para utilizar las ultimas versiones de js
+    ]
+}
